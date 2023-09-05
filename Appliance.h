@@ -7,9 +7,9 @@ public:
     Appliance(int powerRating);
 
     // Getters and setters
-    int getPowerRating() const;
-    void setPowerRating(int powerRating);
-    bool isSwitchedOn() const;  // Rename the member function
+    int get_powerRating() const;
+    void set_powerRating(int powerRating);
+    bool get_isOn() const;  // Rename the member function
 
     // Member functions
     void turnOn();
